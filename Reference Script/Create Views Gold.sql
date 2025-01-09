@@ -8,7 +8,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Calendar/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Calendar/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -23,7 +23,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Customers/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Customer/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -39,7 +39,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Products/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Products/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -54,7 +54,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Returns/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Returns/',
             FORMAT = 'PARQUET'
         ) as QUER1
         
@@ -69,7 +69,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Returns/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Returns/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -84,7 +84,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Sales/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Sales/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -99,7 +99,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_SUbCategories/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_ProductSubcategory/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -115,7 +115,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://awstoragedatalake.blob.core.windows.net/silver/AdventureWorks_Territories/',
+            BULK 'https://bharatsdatalakestorage.blob.core.windows.net/silver/AdventureWorks_Territory/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
