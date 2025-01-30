@@ -39,7 +39,7 @@ This pipeline follows these steps:
 | **Azure Data Factory**    | Ingests raw data into Azure Data Lake        | <img src="icons/adf.png" width="30" height="30" /> |
 | **Azure Data Lake Gen2**  | Stores raw & processed data                  | <img src="icons/data_lake.png" width="30" height="30" /> |
 | **Azure Databricks**      | Transforms raw data                         | <img src="icons/databricks.png" width="30" height="30" /> |
-| **Azure Synapse Analytics** | Enables analytics and querying             | <img src="icons/Synapse.png" width="30" height="30" /> |
+| **Azure Synapse Analytics** | Enables analytics and querying             | <img src="icons/Synapse.png"  height="30" /> |
 | **Power BI**              | Fetches data, models relationships, and creates reports | <img src="icons/powerbi.png" width="30" height="30" /> |
 
 
