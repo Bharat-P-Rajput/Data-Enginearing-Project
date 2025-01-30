@@ -8,17 +8,42 @@ This project demonstrates an **end-to-end data pipeline** using **Azure Data Fac
 
 Below is the **high-level architecture** of the project:
 
-![Architecture Diagram](screenshots/final_data_map.png)
+# 🚀 Azure Data Pipeline: From Ingestion to Visualization
 
-🔹 **Key Components:**
-- **Data Source:** External HTTP data source  
-- **Azure Data Factory (ADF):** Ingests raw data into Azure Data Lake  
-- **Azure Data Lake Gen2:** Stores both raw and processed data  
-- **Azure Databricks:** Transforms raw data  
-- **Azure Synapse Analytics:** Enables analytics and querying  
-- **Power BI:** Creates reports and dashboards  
+This project demonstrates an **end-to-end data pipeline** using **Azure Data Factory, Azure Data Lake, Azure Synapse Analytics, and Power BI** to ingest, process, store, and visualize data.
 
 ---
+
+## 📌 Architecture Overview
+
+Below is the **high-level architecture** of the project:
+
+![Architecture Diagram](screenshots/Architecture_Diagram.png)
+
+This pipeline follows these steps:
+1. **Data Ingestion**: Raw data is fetched from an external HTTP source via **Azure Data Factory (ADF)**.
+2. **Raw Data Storage**: The data is stored in **Azure Data Lake Gen2**.
+3. **Data Transformation**: **Azure Databricks** processes and cleans the raw data.
+4. **Serving & Analytics**: The transformed data is stored in **Azure Synapse Analytics** for querying.
+5. **Fetching Data in Power BI**: The **Power BI** tool is connected to Synapse to import the transformed dataset.
+6. **Data Modeling in Power BI**: The imported data is structured using **relationships, calculated measures, and columns** for effective reporting.
+7. **Reporting & Visualization**: **Power BI dashboards** provide insights based on the processed data.
+
+---
+
+## 🔹 **Technology Stack**
+
+| Tool                     | Purpose                                      | Icon |
+|--------------------------|----------------------------------------------|------|
+| **Data Source**          | External HTTP data ingestion                 | ![HTTP Icon](icons/http.png) |
+| **Azure Data Factory**   | Ingests raw data into Azure Data Lake       | ![ADF Icon](icons/adf.png) |
+| **Azure Data Lake Gen2** | Stores raw & processed data                 | ![Data Lake Icon](icons/data_lake.png) |
+| **Azure Databricks**     | Transforms raw data                         | ![Databricks Icon](icons/databricks.png) |
+| **Azure Synapse Analytics** | Enables analytics and querying         | ![Synapse Icon](icons/synapse.png) |
+| **Power BI**             | Fetches data, models relationships, and creates reports | ![Power BI Icon](icons/powerbi.png) |
+
+---
+
 
 ## 🚀 Step-by-Step Implementation
 
@@ -56,7 +81,9 @@ Below is the **high-level architecture** of the project:
   - Store the transformed data back into Azure Data Lake.
 
 📷 **Screenshot:** *Databricks Notebook with Transformation Code*  
-![Databricks Notebook](screenshots/databricks_notebook.png)
+![Databricks Notebook](screenshots/databricks_notebook1.png)
+![Databricks Notebook](screenshots/databricks_notebook2.png)
+![Databricks Notebook](screenshots/databricks_notebook3.png)
 
 📷 **Screenshot:** *Transformed Data Stored in Azure Data Lake*  
 ![Transformed Data](screenshots/transformed_data_lake.png)
@@ -70,8 +97,32 @@ Below is the **high-level architecture** of the project:
   - Run SQL queries to analyze the transformed data.
 
 📷 **Screenshot:** *Azure Synapse Analytics Workspace*  
-![Synapse Workspace](screenshots/synapse_workspace.png)
+![Synapse Workspace](screenshots/synapse_workspace1.png)
+![Synapse Workspace](screenshots/synapse_workspace2.png)
 
-📷 **Screenshot:** *SQL Query Execution in Synapse*  
-```sql
-SELECT TOP 10 * FROM transformed_data_table ORDER BY timestamp DESC;
+## 📸 **Screenshots for Power BI Integration**  
+
+### 🔹 Fetching Data in Power BI  
+- **Objective:** Import transformed data from **Azure Synapse Analytics** into Power BI for reporting.  
+- **Steps:**
+  1. Open **Power BI**.
+  2. Click **Get Data** → Select **Azure Synapse Analytics**.
+  3. Enter **server details** and choose the **transformed dataset**.
+  4. Click **Load** to import the data.
+
+📷 **Screenshot:** *Fetching Data from Azure Synapse in Power BI*  
+![Fetching Data in Power BI](screenshots/powerbi_fetch_data.png)
+
+---
+
+### 🔹 Data Modeling in Power BI  
+- **Objective:** Structure and model the data for insightful reporting.  
+- **Steps:**
+  1. Navigate to the **Modeling Tab** in Power BI.
+  2. Define **Relationships** between tables.
+  3. Create **Calculated Measures** and **Columns** using **DAX**.
+  4. Optimize the model for performance.
+
+📷 **Screenshot:** *Power BI Data Modeling - Relationship View*  
+![Power BI Data Modeling](screenshots/powerbi_data_modeling.png)
+
