@@ -35,12 +35,13 @@ This pipeline follows these steps:
 
 | Tool                     | Purpose                                      | Icon |
 |--------------------------|----------------------------------------------|------|
-| **Data Source**          | External HTTP data ingestion                 | ![HTTP Icon](icons/http.png) |
-| **Azure Data Factory**   | Ingests raw data into Azure Data Lake       | ![ADF Icon](icons/adf.png) |
-| **Azure Data Lake Gen2** | Stores raw & processed data                 | ![Data Lake Icon](icons/data_lake.png) |
-| **Azure Databricks**     | Transforms raw data                         | ![Databricks Icon](icons/databricks.png) |
-| **Azure Synapse Analytics** | Enables analytics and querying         | ![Synapse Icon](icons/synapse.png) |
-| **Power BI**             | Fetches data, models relationships, and creates reports | ![Power BI Icon](icons/powerbi.png) |
+| **Data Source**           | External HTTP data ingestion                | <img src="icons/http.png" width="30" height="30" /> |
+| **Azure Data Factory**    | Ingests raw data into Azure Data Lake        | <img src="icons/adf.png" width="30" height="30" /> |
+| **Azure Data Lake Gen2**  | Stores raw & processed data                  | <img src="icons/data_lake.png" width="30" height="30" /> |
+| **Azure Databricks**      | Transforms raw data                         | <img src="icons/databricks.png" width="30" height="30" /> |
+| **Azure Synapse Analytics** | Enables analytics and querying             | <img src="icons/synapse.png" width="30" height="30" /> |
+| **Power BI**              | Fetches data, models relationships, and creates reports | <img src="icons/powerbi.png" width="30" height="30" /> |
+
 
 ---
 
