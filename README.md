@@ -128,10 +128,4 @@ This pipeline follows these steps:
 ![Power BI Data Modeling](screenshots/powerbi_data_modeling.png)
 
 
-### 📊 View the Power BI Report
-
-Click the link below to open the Power BI report:
-
-<iframe title="Final Project Report" width="1140" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=bc0350fe-4676-4afd-a009-59143269d699&autoAuth=true&ctid=35378ff2-8912-4402-91b9-2992f3c03da3" frameborder="0" allowFullScreen="true"></iframe>
-
 
