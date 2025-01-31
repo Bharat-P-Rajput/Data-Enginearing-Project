@@ -127,3 +127,11 @@ This pipeline follows these steps:
 📷 **Screenshot:** *Power BI Data Modeling - Relationship View*  
 ![Power BI Data Modeling](screenshots/powerbi_data_modeling.png)
 
+
+### 📊 View the Power BI Report
+
+Click the link below to open the Power BI report:
+
+[🔗 Open Power BI Report](https://Bharat-P-Rajput.github.io/Data-Enginearing-Project/WebPage%20to%20Embed%20PowerBI%20Report/index.html)
+
+
