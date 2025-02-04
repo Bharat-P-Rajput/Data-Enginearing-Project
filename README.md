@@ -8,16 +8,6 @@ This project demonstrates an **end-to-end data pipeline** using **Azure Data Fac
 
 Below is the **high-level architecture** of the project:
 
-# 🚀 Azure Data Pipeline: From Ingestion to Visualization
-
-This project demonstrates an **end-to-end data pipeline** using **Azure Data Factory, Azure Data Lake, Azure Synapse Analytics, and Power BI** to ingest, process, store, and visualize data.
-
----
-
-## 📌 Architecture Overview
-
-Below is the **high-level architecture** of the project:
-
 ![Architecture Diagram](screenshots/Architecture_Diagram.png)
 
 This pipeline follows these steps:
