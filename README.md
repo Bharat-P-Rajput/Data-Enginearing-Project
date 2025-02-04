@@ -55,10 +55,12 @@ This pipeline follows these steps:
   - Set up a **pipeline** to transfer the data into a raw storage container.
   - Execute the pipeline and monitor its progress.
 
-📷 **Screenshot:** _Azure Data Factory Pipeline Configuration (Bronze Layer)_  
+📷 **Screenshot:** _Azure Data Factory Pipeline Configuration (Bronze Layer)_
+
 ![ADF Pipeline](screenshots/adf_pipeline.png)
 
-📷 **Screenshot:** _Monitoring ADF Pipeline Execution_  
+📷 **Screenshot:** _Monitoring ADF Pipeline Execution_
+
 ![ADF Monitoring](screenshots/adf_monitoring.png)
 
 ---
@@ -70,7 +72,8 @@ This pipeline follows these steps:
   - Navigate to **Azure Data Lake Storage**.
   - Verify that the raw data is stored in the correct **container**.
 
-📷 **Screenshot:** _Raw Data Stored in Azure Data Lake (Bronze Container)_  
+📷 **Screenshot:** _Raw Data Stored in Azure Data Lake (Bronze Container)_
+
 ![Raw Data Lake](screenshots/raw_data_lake.png)
 
 ---
@@ -85,13 +88,19 @@ This pipeline follows these steps:
 
 📷 **Screenshot:** _Databricks Notebook with Transformation Code (Silver Layer)_  
 **1. Get Data From Bronze Layer to Databricks**
+
 ![Databricks Notebook](screenshots/databricks_notebook1.png)
+
 **2. Transform Data in Azure Databricks**
+
 ![Databricks Notebook](screenshots/databricks_notebook2.png)
+
 **3. Store Transformed Data in Silver Container**
+
 ![Databricks Notebook](screenshots/databricks_notebook3.png)
 
-📷 **Screenshot:** _Transformed Data Stored in Azure Data Lake (Silver Container)_  
+📷 **Screenshot:** _Transformed Data Stored in Azure Data Lake (Silver Container)_
+
 ![Transformed Data](screenshots/transformed_data_lake.png)
 
 ---
@@ -105,8 +114,11 @@ This pipeline follows these steps:
 
 📷 **Screenshot:** _Azure Synapse Analytics Workspace (Gold Layer)_  
 **1. Get Data From Silver Layer and Create Views in Azure Synapse**
+
 ![Synapse Workspace](screenshots/synapse_workspace1.png)
+
 **2. Create External Tables in Azure Synapse (gold_database)**
+
 ![Synapse Workspace](screenshots/synapse_workspace2.png)
 
 ## 📸 **Screenshots for Power BI Integration**
@@ -120,7 +132,8 @@ This pipeline follows these steps:
   3. Enter **server details** and choose the **transformed dataset**.
   4. Click **Load** to import the data.
 
-📷 **Screenshot:** _Fetching Data from Azure Synapse in Power BI_  
+📷 **Screenshot:** _Fetching Data from Azure Synapse in Power BI_
+
 ![Fetching Data in Power BI](screenshots/powerbi_fetch_data.png)
 
 ---
@@ -134,7 +147,8 @@ This pipeline follows these steps:
   3. Create **Calculated Measures** and **Columns** using **DAX**.
   4. Optimize the model for performance.
 
-📷 **Screenshot:** _Power BI Data Modeling - Relationship View_  
+📷 **Screenshot:** _Power BI Data Modeling - Relationship View_
+
 ![Power BI Data Modeling](screenshots/powerbi_data_modeling.png)
 
 ---
